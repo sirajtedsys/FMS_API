@@ -1,0 +1,493 @@
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.AssemblyReference.cache
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfoInputs.cache
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.Development.json
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.json
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.exe
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.deps.json
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.runtimeconfig.json
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\System.Text.Json.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.json
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.development.json
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.build.FMS_API.props
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\scopedcss\bundle\FMS_API.styles.css
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.Up2Date
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\refint\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.genruntimeconfig.cache
+D:\WORKING\siraj\fms\source codes\FMS_API\FMS_API\obj\Debug\net8.0\ref\FMS_API.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.Development.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.staticwebassets.endpoints.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.exe
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.deps.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.runtimeconfig.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.pdb
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.AssemblyReference.cache
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfoInputs.cache
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfo.cs
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.CoreCompileInputs.cache
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\scopedcss\bundle\FMS_API.styles.css
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.development.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.build.FMS_API.props
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.Up2Date
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\refint\FMS_API.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.pdb
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.genruntimeconfig.cache
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\ref\FMS_API.dll
+D:\Mano\Work\ExpenseTracker02042025\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.Development.json
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.json
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.exe
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.deps.json
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.runtimeconfig.json
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\System.Text.Json.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.AssemblyReference.cache
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfoInputs.cache
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.json
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.development.json
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.build.FMS_API.props
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\scopedcss\bundle\FMS_API.styles.css
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.Up2Date
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\refint\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.genruntimeconfig.cache
+D:\WORKING\siraj\fms\source codes\expencetracker from april 4\FMS_API\FMS_API\obj\Debug\net8.0\ref\FMS_API.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.Development.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.staticwebassets.endpoints.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.exe
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.deps.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.runtimeconfig.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.pdb
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.AssemblyReference.cache
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfoInputs.cache
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfo.cs
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.CoreCompileInputs.cache
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\scopedcss\bundle\FMS_API.styles.css
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.development.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.build.FMS_API.props
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.Up2Date
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\refint\FMS_API.dll
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.pdb
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.genruntimeconfig.cache
+D:\Mano\Work\FMS\FMS_API\FMS_API\obj\Debug\net8.0\ref\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\refint\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.Development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.exe
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.deps.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.runtimeconfig.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\System.Text.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.AssemblyReference.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfoInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.build.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\scopedcss\bundle\FMS_API.styles.css
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.Up2Date
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.genruntimeconfig.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Debug\net8.0\ref\FMS_API.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.Development.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.staticwebassets.endpoints.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.exe
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.deps.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.runtimeconfig.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.pdb
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.AssemblyReference.cache
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfoInputs.cache
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfo.cs
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.CoreCompileInputs.cache
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\scopedcss\bundle\FMS_API.styles.css
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.development.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.build.FMS_API.props
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.Up2Date
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\refint\FMS_API.dll
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.pdb
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.genruntimeconfig.cache
+D:\Mano\Work\Tedtracker_final\FMS_API\FMS_API\obj\Debug\net8.0\ref\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.Development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\appsettings.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.exe
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.deps.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.runtimeconfig.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\System.Text.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.AssemblyReference.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfoInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.AssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.build.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.build.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\scopedcss\bundle\FMS_API.styles.css
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.csproj.Up2Date
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\refint\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.genruntimeconfig.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\ref\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Debug\net8.0\FMS_API.sourcelink.json

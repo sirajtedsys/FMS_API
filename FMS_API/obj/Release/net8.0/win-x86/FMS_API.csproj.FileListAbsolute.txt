@@ -1,0 +1,130 @@
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\appsettings.Development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\appsettings.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.exe
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.deps.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.runtimeconfig.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Bcl.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Caching.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Caching.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.DependencyInjection.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Options.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Primitives.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.OpenApi.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Newtonsoft.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Diagnostics.DiagnosticSource.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Text.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.csproj.AssemblyReference.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.AssemblyInfoInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.AssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets.build.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets.development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.build.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets.pack.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\scopedcss\bundle\FMS_API.styles.css
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.csproj.Up2Date
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\refint\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.genruntimeconfig.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\FMS_API (2)\FMS_API\FMS_API\obj\Release\net8.0\win-x86\ref\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\appsettings.Development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\appsettings.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.exe
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.deps.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.runtimeconfig.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Bcl.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Caching.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Caching.Memory.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.DependencyInjection.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Options.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.Extensions.Primitives.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Microsoft.OpenApi.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Newtonsoft.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Diagnostics.DiagnosticSource.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\bin\Release\net8.0\win-x86\System.Text.Json.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.csproj.AssemblyReference.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.AssemblyInfoInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.AssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets.build.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets.development.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.FMS_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.build.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.buildMultiTargeting.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets\msbuild.buildTransitive.FMS_API.props
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\staticwebassets.pack.json
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\scopedcss\bundle\FMS_API.styles.css
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.csproj.Up2Date
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\refint\FMS_API.dll
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.pdb
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\FMS_API.genruntimeconfig.cache
+D:\WORKING\siraj\fms\source codes\fms api 11 april 2025\fmsapi 8 may\FMS_API\FMS_API\obj\Release\net8.0\win-x86\ref\FMS_API.dll

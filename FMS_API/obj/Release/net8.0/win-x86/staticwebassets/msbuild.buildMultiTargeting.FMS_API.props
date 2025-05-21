@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FMS_API.props" />
+</Project>

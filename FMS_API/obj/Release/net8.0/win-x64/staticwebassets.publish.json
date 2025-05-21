@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NUTFKRgqwWWA6sHRpJ+JqjxcHsjpoSBHNsdEyaJCirU=",
+  "Source": "FMS_API",
+  "BasePath": "_content/FMS_API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

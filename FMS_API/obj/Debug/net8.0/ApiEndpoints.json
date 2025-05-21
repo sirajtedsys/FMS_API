@@ -1,0 +1,1914 @@
+[
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "FileUpload",
+    "RelativePath": "api/AddCall/FileUpload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "daily",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "wrefno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "workid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetActiveProjects",
+    "RelativePath": "api/AddCall/GetActiveProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetCallTypes",
+    "RelativePath": "api/AddCall/GetCallTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetClients",
+    "RelativePath": "api/AddCall/GetClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetEmergency",
+    "RelativePath": "api/AddCall/GetEmergency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/AddCall/GetEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetErrorTypes",
+    "RelativePath": "api/AddCall/GetErrorTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetModules",
+    "RelativePath": "api/AddCall/GetModules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetRefNo",
+    "RelativePath": "api/AddCall/GetRefNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ondate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "GetWorkDetailsAsync",
+    "RelativePath": "api/AddCall/GetWorkDetailsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "whereClause",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "OpenCallBySelfFromCAllList",
+    "RelativePath": "api/AddCall/OpenCallBySelfFromCAllList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WorkId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "RejectASsignedWork",
+    "RelativePath": "api/AddCall/RejectASsignedWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WorkId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkdtlsId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "SaveAddCall",
+    "RelativePath": "api/AddCall/SaveAddCall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.Calldet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "SaveCallInform",
+    "RelativePath": "api/AddCall/SaveCallInform",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.CallInformation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "SaveWorkAssignmentFromCallList",
+    "RelativePath": "api/AddCall/SaveWorkAssignmentFromCallList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WorkId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AddCallController",
+    "Method": "UpdateWorkStatus",
+    "RelativePath": "api/AddCall/UpdateWorkStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workDtlsId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "workId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "workStatusId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetFile",
+    "RelativePath": "api/Attendence/{fullPath}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fullPath",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "CloseCallFromCAllList",
+    "RelativePath": "api/Attendence/CloseCallFromCAllList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.DailyWorkSheet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "DeleteDailyWorkSheetAsync",
+    "RelativePath": "api/Attendence/DeleteDailyWorkSheetAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WorkSheetId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetActiveProjects",
+    "RelativePath": "api/Attendence/GetActiveProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetAttach",
+    "RelativePath": "api/Attendence/GetAttach",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetAttachProject",
+    "RelativePath": "api/Attendence/GetAttachProject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WorkId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetAttendenceReport",
+    "RelativePath": "api/Attendence/GetAttendenceReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strFDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "strTDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Empid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetAttenReport",
+    "RelativePath": "api/Attendence/GetAttenReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strFDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "strTDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Empid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "bltype",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetDepartment",
+    "RelativePath": "api/Attendence/GetDepartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetEmployeePunchDet",
+    "RelativePath": "api/Attendence/GetEmployeePunchDet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "punchStartDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "punchEndDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetEmployeePunchDetails",
+    "RelativePath": "api/Attendence/GetEmployeePunchDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "datee",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetEmployeeWorkdasboard",
+    "RelativePath": "api/Attendence/GetEmployeeWorkdasboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DepartmentId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "empid",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetEmployeeWorkdasboarddet",
+    "RelativePath": "api/Attendence/GetEmployeeWorkdasboarddet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetEmployeeWorkdetails",
+    "RelativePath": "api/Attendence/GetEmployeeWorkdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetEmployeeWorkdetailsEmp",
+    "RelativePath": "api/Attendence/GetEmployeeWorkdetailsEmp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetEmployeeWorkdetailsEmpStatus",
+    "RelativePath": "api/Attendence/GetEmployeeWorkdetailsEmpStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "workstatusid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetOpenedWorkOfEmpkoyee",
+    "RelativePath": "api/Attendence/GetOpenedWorkOfEmpkoyee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "Getprojectclientlist",
+    "RelativePath": "api/Attendence/Getprojectclientlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetPunchDetails",
+    "RelativePath": "api/Attendence/GetPunchDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.PunchDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetWorkAssignments",
+    "RelativePath": "api/Attendence/GetWorkAssignments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "GetWorkStatus",
+    "RelativePath": "api/Attendence/GetWorkStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "ReassignTonewEmployeeFromInbox",
+    "RelativePath": "api/Attendence/ReassignTonewEmployeeFromInbox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.DailyWorkSheet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "SaveAppDailyWorkSheetAsync",
+    "RelativePath": "api/Attendence/SaveAppDailyWorkSheetAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.DailyWorkSheet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.AttendenceController",
+    "Method": "SavePunchRemarks",
+    "RelativePath": "api/Attendence/SavePunchRemarks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameters",
+        "Type": "FMS_API.Data.Class.PunchDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "LoginCheck",
+    "RelativePath": "api/Common/CheckLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "FMS_API.Data.Class.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GenerateCRBillRefNo",
+    "RelativePath": "api/Common/GenerateCRBillRefNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "compID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "finYearID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "compCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finYearCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sctID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAllUserBranches",
+    "RelativePath": "api/Common/GetAllUserBranches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppBank",
+    "RelativePath": "api/Common/GetAppBank",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppBillNoFlexFill",
+    "RelativePath": "api/Common/GetAppBillNoFlexFill",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BillNO",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finYearID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppCustBranch",
+    "RelativePath": "api/Common/GetAppCustBranch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mainCustId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppCustFlexFill",
+    "RelativePath": "api/Common/GetAppCustFlexFill",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filterCust",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppCustomer",
+    "RelativePath": "api/Common/GetAppCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppEmpWiseSct",
+    "RelativePath": "api/Common/GetAppEmpWiseSct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppFinYear",
+    "RelativePath": "api/Common/GetAppFinYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppMenuAsync",
+    "RelativePath": "api/Common/GetAppMenuAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetAppWallet",
+    "RelativePath": "api/Common/GetAppWallet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetCompanyFinYearDetails",
+    "RelativePath": "api/Common/GetCompanyFinYearDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetCRBCPrefix",
+    "RelativePath": "api/Common/GetCRBCPrefix",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetManualInvoiceFlexFill",
+    "RelativePath": "api/Common/GetManualInvoiceFlexFill",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "manualInvNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finYearID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetSectionCounterDetails",
+    "RelativePath": "api/Common/GetSectionCounterDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sectionId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/Common/GetUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.CommonController",
+    "Method": "SaveAppCrBillMaster",
+    "RelativePath": "api/Common/SaveAppCrBillMaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cb",
+        "Type": "FMS_API.Data.Class.CrBill",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "AddEmployeeExpence",
+    "RelativePath": "api/ExpenseTracker/AddEmployeeExpence",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.EmpExpence",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "LoginCheck",
+    "RelativePath": "api/ExpenseTracker/CheckLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "FMS_API.Data.Class.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetAccountBalances",
+    "RelativePath": "api/ExpenseTracker/GetAccountBalances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tdate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "AcMasterId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetAccountMastersAsync",
+    "RelativePath": "api/ExpenseTracker/GetAccountMastersAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetActiveProjects",
+    "RelativePath": "api/ExpenseTracker/GetActiveProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetAllWorkSheet",
+    "RelativePath": "api/ExpenseTracker/GetAllWorkSheet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workDateF",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "workDateT",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetCompanySettingsAsync",
+    "RelativePath": "api/ExpenseTracker/GetCompanySettingsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetCompayId",
+    "RelativePath": "api/ExpenseTracker/GetCompayId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetDailyWorkSheet",
+    "RelativePath": "api/ExpenseTracker/GetDailyWorkSheet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WorkDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkDate1",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetEmployeeExpenseDetailsAsync",
+    "RelativePath": "api/ExpenseTracker/GetEmployeeExpenseDetailsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strExpId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetEmployeeExpensesAsync",
+    "RelativePath": "api/ExpenseTracker/GetEmployeeExpensesAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strAccountId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strFrom",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strTo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetOracleTimeAsync",
+    "RelativePath": "api/ExpenseTracker/GetOracleTimeAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetTabs",
+    "RelativePath": "api/ExpenseTracker/GetTabs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "moduleId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/ExpenseTracker/GetUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ExpenseTrackerController",
+    "Method": "UpdateEmployeeExpense",
+    "RelativePath": "api/ExpenseTracker/UpdateEmployeeExpense",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strRemarks",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "expId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.ProjectClientController",
+    "Method": "GetFile",
+    "RelativePath": "api/ProjectClient/{fullPath}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fullPath",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetBillwiseSale",
+    "RelativePath": "api/Sales/GetBillwiseSale",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetCateWiseStock",
+    "RelativePath": "api/Sales/GetCateWiseStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetCounterwiseCollection",
+    "RelativePath": "api/Sales/GetCounterwiseCollection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetItemCategorywiseSale",
+    "RelativePath": "api/Sales/GetItemCategorywiseSale",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetItemwiseSale",
+    "RelativePath": "api/Sales/GetItemwiseSale",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetOnlineProfitCategoryWise",
+    "RelativePath": "api/Sales/GetOnlineProfitCategoryWise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetProfitBreakup",
+    "RelativePath": "api/Sales/GetProfitBreakup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetProitItemWise",
+    "RelativePath": "api/Sales/GetProitItemWise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetPurchaseItemCategorywise",
+    "RelativePath": "api/Sales/GetPurchaseItemCategorywise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetPurchaseItemwise",
+    "RelativePath": "api/Sales/GetPurchaseItemwise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetPurchaseSummary",
+    "RelativePath": "api/Sales/GetPurchaseSummary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetPurchasevendorwise",
+    "RelativePath": "api/Sales/GetPurchasevendorwise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetPurchasewise",
+    "RelativePath": "api/Sales/GetPurchasewise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetSalesDetails",
+    "RelativePath": "api/Sales/GetSalesDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetStockBreakup",
+    "RelativePath": "api/Sales/GetStockBreakup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetStockItemWise",
+    "RelativePath": "api/Sales/GetStockItemWise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetVendorWiseProfit",
+    "RelativePath": "api/Sales/GetVendorWiseProfit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SalesController",
+    "Method": "GetVendorWiseStock",
+    "RelativePath": "api/Sales/GetVendorWiseStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "FileUpload",
+    "RelativePath": "api/SupportCall/FileUpload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "daily",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "wrefno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "workid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetActiveProjects",
+    "RelativePath": "api/SupportCall/GetActiveProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetCallTypes",
+    "RelativePath": "api/SupportCall/GetCallTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetClients",
+    "RelativePath": "api/SupportCall/GetClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetEmergency",
+    "RelativePath": "api/SupportCall/GetEmergency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/SupportCall/GetEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetErrorTypes",
+    "RelativePath": "api/SupportCall/GetErrorTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetModules",
+    "RelativePath": "api/SupportCall/GetModules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "GetSupportRefNo",
+    "RelativePath": "api/SupportCall/GetSupportRefNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ondate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.SupportCallController",
+    "Method": "SaveSupportCall",
+    "RelativePath": "api/SupportCall/SaveSupportCall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.Data.Class.Calldet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "GetFile",
+    "RelativePath": "api/TTCCommon/{fullPath}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fullPath",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "LoginCheck",
+    "RelativePath": "api/TTCCommon/CheckProjectLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "FMS_API.Data.Class.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "FileUpload",
+    "RelativePath": "api/TTCCommon/FileUpload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "daily",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "wrefno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "workid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "GetAttach",
+    "RelativePath": "api/TTCCommon/GetAttach",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProjectWorkId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "GetModulesByProjectId",
+    "RelativePath": "api/TTCCommon/GetModulesByProjectId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "GetProjectDetails",
+    "RelativePath": "api/TTCCommon/GetProjectDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "GetRefNo",
+    "RelativePath": "api/TTCCommon/GetRefNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ondate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "Getworklist",
+    "RelativePath": "api/TTCCommon/Getworklist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "Getworklistproject",
+    "RelativePath": "api/TTCCommon/Getworklistproject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.TedtrackerClient.TTCController.TTCCommonController",
+    "Method": "SaveAppProjectWork",
+    "RelativePath": "api/TTCCommon/SaveAppProjectWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "FMS_API.TedtrackerClient.TTCClass.ProjectWorkAddCall",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FMS_API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FMS_API.WeatherForecast, FMS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
