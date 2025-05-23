@@ -1211,8 +1211,222 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
             //return false;
         }
 
-    
-    
-    
+
+
+        public async Task<dynamic> GetActiveLeaveStatuses()
+        {
+            var results = new List<dynamic>();
+
+            string query = @"
+       SELECT LEAVE_STATUS_ID, LEAVE_STATUS 
+       FROM PRMMASTER.HRM_LEAVE_STATUS 
+       WHERE NVL(ACTIVE_STATUS, 'A') = 'A' 
+         AND LEAVE_STATUS_ID <> 1";
+
+            try
+            {
+                using (var connection = new OracleConnection(_con))
+                using (var command = new OracleCommand(query, connection))
+                {
+                    connection.Open();
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            dynamic row = new ExpandoObject();
+                            row.LeaveStatusId = reader["LEAVE_STATUS_ID"];
+                            row.LeaveStatus = reader["LEAVE_STATUS"];
+                            results.Add(row);
+                        }
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                // Log or handle Oracle-specific exceptions
+                return new { Status = 500, Message = ex.Message };
+            }
+            catch (Exception ex)
+            {
+                // Handle any other exceptions
+                return new { Status = 500, Message = ex.Message };
+            }
+
+            return new { Status = 200, Data = results };
+        }
+
+
+        public async Task<dynamic> ChangeLEaveRequeststatus(string leaveRequestId, DateTime approvedDate, string approvedUser, string statusId, string remarks)
+        {
+            string query = @"
+   UPDATE PRMTRANS.HRM_EMP_LEAVE_REQUEST 
+   SET 
+       APPROVED_DATE = :ApprovedDate,
+       APPROVED_USER = :ApprovedUser,
+       STATUS_ID = :StatusId,
+       REMARKS = :Remarks
+   WHERE 
+       LEAVE_REQUEST_ID = :LeaveRequestId";
+
+            try
+            {
+                using (var connection = new OracleConnection(_con))
+                using (var command = new OracleCommand(query, connection))
+                {
+                    command.Parameters.Add(new OracleParameter("ApprovedDate", approvedDate));
+                    command.Parameters.Add(new OracleParameter("ApprovedUser", string.IsNullOrWhiteSpace(approvedUser) ? (object)DBNull.Value : approvedUser));
+                    command.Parameters.Add(new OracleParameter("StatusId", string.IsNullOrWhiteSpace(statusId) ? (object)DBNull.Value : statusId));
+                    command.Parameters.Add(new OracleParameter("Remarks", string.IsNullOrWhiteSpace(remarks) ? (object)DBNull.Value : remarks));
+                    command.Parameters.Add(new OracleParameter("LeaveRequestId", leaveRequestId));
+
+                    connection.Open();
+                    int rowsAffected = await command.ExecuteNonQueryAsync();
+
+                    if (rowsAffected > 0)
+                    {
+                        return new { Status = 200, Message = "Leave request status updated successfully" };
+                    }
+                    else
+                    {
+                        return new { Status = 400, Message = "Unable to update leave request status" };
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                return new { Status = 500, Message = ex.Message };
+            }
+            catch (Exception ex)
+            {
+                return new { Status = 500, Message = ex.Message };
+            }
+        }
+
+
+        public async Task<dynamic> GetLeaveRequestsAsync(DateTime dateFrom, DateTime dateTo, string EmpId = null, string StatusId = null)
+        {
+            string query = @"
+SELECT 
+    L.CREATE_USER,
+    EMP_NAME,
+    LEAVE_REQUEST_ID,
+    FROM_DATE,
+    TO_DATE,
+    LEAVE_REASON,
+    LEAVE_REQ_NO,
+    L.STATUS_ID,
+    LEAVE_STATUS,
+    L.CREATE_DATE,
+    LEAVE_REQ_DATE
+FROM 
+    PRMTRANS.HRM_EMP_LEAVE_REQUEST L
+INNER JOIN 
+    PRMMASTER.HRM_LEAVE_STATUS S ON S.LEAVE_STATUS_ID = L.STATUS_ID
+INNER JOIN 
+    PRMMASTER.HRM_EMPLOYEE E ON E.EMP_ID = L.CREATE_USER
+WHERE 
+    L.FROM_DATE >= :DateFrom 
+    AND L.TO_DATE <= :DateTo
+    AND (:EmpId IS NULL OR E.EMP_ID = :EmpId)
+    AND (:StatusId IS NULL OR L.STATUS_ID = :StatusId)";
+
+            try
+            {
+                using (var connection = new OracleConnection(_con))
+                using (var command = new OracleCommand(query, connection))
+                {
+                    command.Parameters.Add(new OracleParameter("DateFrom", dateFrom));
+                    command.Parameters.Add(new OracleParameter("DateTo", dateTo));
+                    command.Parameters.Add(new OracleParameter("EmpId", string.IsNullOrEmpty(EmpId) ? DBNull.Value : (object)EmpId));
+                    command.Parameters.Add(new OracleParameter("EmpId", string.IsNullOrEmpty(EmpId) ? DBNull.Value : (object)EmpId));
+                    command.Parameters.Add(new OracleParameter("StatusId", string.IsNullOrEmpty(StatusId) ? DBNull.Value : (object)StatusId));
+                    command.Parameters.Add(new OracleParameter("StatusId", string.IsNullOrEmpty(StatusId) ? DBNull.Value : (object)StatusId));
+
+
+                    await connection.OpenAsync();
+                    using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        var results = new List<dynamic>();
+
+                        while (await reader.ReadAsync())
+                        {
+                            results.Add(new
+                            {
+                                CreateUser = reader["CREATE_USER"]?.ToString(),
+                                EmpName = reader["EMP_NAME"]?.ToString(),
+                                LeaveRequestId = reader["LEAVE_REQUEST_ID"]?.ToString(),
+                                FromDate = reader["FROM_DATE"] != DBNull.Value ? Convert.ToDateTime(reader["FROM_DATE"]) : (DateTime?)null,
+                                ToDate = reader["TO_DATE"] != DBNull.Value ? Convert.ToDateTime(reader["TO_DATE"]) : (DateTime?)null,
+                                LeaveReason = reader["LEAVE_REASON"]?.ToString(),
+                                LeaveReqNo = reader["LEAVE_REQ_NO"]?.ToString(),
+                                StatusId = reader["STATUS_ID"]?.ToString(),
+                                LeaveStatus = reader["LEAVE_STATUS"]?.ToString(),
+                                CreateDate = reader["CREATE_DATE"] != DBNull.Value ? Convert.ToDateTime(reader["CREATE_DATE"]) : (DateTime?)null,
+                                LeaveReqDate = reader["LEAVE_REQ_DATE"] != DBNull.Value ? Convert.ToDateTime(reader["LEAVE_REQ_DATE"]) : (DateTime?)null
+                            });
+                        }
+
+                        return new { Status = 200, Data = results };
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                return new { Status = 500, Message = ex.Message };
+            }
+            catch (Exception ex)
+            {
+                return new { Status = 500, Message = ex.Message };
+            }
+        }
+
+
+        public async Task<dynamic> GetAllLeaveStatuses()
+        {
+            var results = new List<dynamic>();
+
+            string query = @"
+SELECT LEAVE_STATUS_ID, LEAVE_STATUS 
+FROM PRMMASTER.HRM_LEAVE_STATUS 
+WHERE NVL(ACTIVE_STATUS, 'A') = 'A' 
+  ";
+
+            try
+            {
+                using (var connection = new OracleConnection(_con))
+                using (var command = new OracleCommand(query, connection))
+                {
+                    connection.Open();
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            dynamic row = new ExpandoObject();
+                            row.LeaveStatusId = reader["LEAVE_STATUS_ID"];
+                            row.LeaveStatus = reader["LEAVE_STATUS"];
+                            results.Add(row);
+                        }
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                // Log or handle Oracle-specific exceptions
+                return new { Status = 500, Message = ex.Message };
+            }
+            catch (Exception ex)
+            {
+                // Handle any other exceptions
+                return new { Status = 500, Message = ex.Message };
+            }
+
+            return new { Status = 200, Data = results };
+        }
+
+
+
     }
+
+
 }
+

@@ -909,7 +909,201 @@ namespace FMS_API.Controllers
 
         }
 
+        [HttpGet("ChangeLeaveRequeststatus")]
+        public async Task<dynamic> ChangeLEaveRequeststatus(string leaveRequestId, DateTime approvedDate, string statusId, string remarks)
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
 
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+
+                    return Unauthorized();
+
+                }
+                //103.199.163.133
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.ChangeLEaveRequeststatus(leaveRequestId, approvedDate, decodedToken.AUSR_ID, statusId, remarks);
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the GetAccountBalances
+                Console.WriteLine($"Error in UpdateLeaveRequest: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+        [HttpGet("GetActiveLeaveStatuses")]
+        public async Task<dynamic> GetActiveLeaveStatuses()
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.GetActiveLeaveStatuses();
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the GetActiveProjects
+                Console.WriteLine($"Error in GetActiveLeaveStatuses: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+        [HttpGet("GetLeaveRequestsAsync")]
+        public async Task<dynamic> GetLeaveRequestsAsync(DateTime dateFrom, DateTime dateTo, string EmpId = null, string StatusId = null)
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details empId successfully", UserDetails = decodedToken });
+                    return await comrep.GetLeaveRequestsAsync(dateFrom, dateTo, EmpId, StatusId);
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error in UpdateEmployeeExpense: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+
+        [HttpGet("GetAllLeaveStatuses")]
+        public async Task<dynamic> GetAllLeaveStatuses()
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.GetAllLeaveStatuses();
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the GetActiveProjects
+                Console.WriteLine($"Error in GetAllLeaveStatuses: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+        //UpdateEmployeeExpense(string strUserId, string strRemarks, int expId)
 
         //UpdateLeaveRequest(string leaveRequestId, DateTime fromDate, DateTime toDate, string leaveReason)
         //UpdateEmployeeExpense(string strUserId, string strRemarks, int expId)

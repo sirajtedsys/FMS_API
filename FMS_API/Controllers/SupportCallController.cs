@@ -2,6 +2,7 @@
 using FMS_API.Repositry;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
 using static JwtService;
 
 namespace FMS_API.Controllers
@@ -559,7 +560,7 @@ namespace FMS_API.Controllers
 
 
         [HttpPost("uploadFilesOnWorkStatusUpdate")]
-        public async Task<IActionResult> uploadFilesOnWorkStatusUpdate([FromForm] string daily, [FromForm] IFormFile file, [FromForm] string wrefno, [FromForm] string workid)
+        public async Task<IActionResult> uploadFilesOnWorkStatusUpdate([FromForm] string daily, [FromForm] IFormFile file,  [FromForm] string CLNT_WORK_STATUS_ID)
         {
             // Check if the file is null or empty
             if (file == null || file.Length == 0)
@@ -593,7 +594,7 @@ namespace FMS_API.Controllers
                 var dailyData = Newtonsoft.Json.JsonConvert.DeserializeObject<DailyData>(daily);
 
                 //var directoryPath = Path.Combine(_storagePath, "ProjectDocumentUpload", wrefno);
-                string sanitizedWrefno = SanitizeFileName(wrefno);
+                string sanitizedWrefno = SanitizeFileName(CLNT_WORK_STATUS_ID);
 
                 // Create the directory path including the sanitized wrefno subfolder
                 //var directoryPath = Path.Combine(_storagePath, "ProjectDocumentUpload", sanitizedWrefno);
@@ -627,7 +628,7 @@ namespace FMS_API.Controllers
                 {
                     Console.WriteLine("Path structure is incorrect.");
                 }
-                await comrep.SaveProjectWorkStatusFileuploadAsync(workid, fpath, decodedToken);
+                await comrep.SaveProjectWorkStatusFileuploadAsync(sanitizedWrefno, fpath, decodedToken);
 
                 // You can now use the dailyData object and the saved file path as needed
                 return Ok(new { FilePath = filePath, DailyData = dailyData });
@@ -638,6 +639,39 @@ namespace FMS_API.Controllers
             }
         }
 
+
+        //private readonly string _storagePath = Path.Combine(Directory.GetCurrentDirectory(), "ProjectDocumentUpload");
+
+        [HttpGet("{*fullPath}")]
+        public IActionResult GetFile(string fullPath)
+        {
+
+            fullPath = fullPath.Replace("//", "/");
+            // Remove 'ProjectDocumentUploadWorkStatusUpdateAtt if it exists at the start of the path from the frontend
+            if (fullPath.StartsWith("WorkStatusUpdateAtt/"))
+            {
+
+                fullPath = fullPath.Substring("WorkStatusUpdateAtt/".Length);
+            }
+
+            // Now combine the cleaned-up path with the base storage path
+            var filePath = Path.Combine(_storagePathWorkStausUpdate, fullPath);
+
+            // Ensure the file exists before serving it
+            if (!System.IO.File.Exists(filePath))
+            {
+                return NotFound("File not found.");
+            }
+
+            // Get MIME type based on file extension
+            var provider = new FileExtensionContentTypeProvider();
+            if (!provider.TryGetContentType(filePath, out var contentType))
+            {
+                contentType = "application/octet-stream"; // Default for unknown types
+            }
+
+            return PhysicalFile(filePath, contentType);
+        }
 
 
     }

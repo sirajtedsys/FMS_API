@@ -810,7 +810,7 @@ namespace FMS_API.Repositry
             }
         }
 
-        public async Task<dynamic> SaveProjectWorkStatusFileuploadAsync(string? workId, string attachfilepath, UserTocken ut)
+        public async Task<dynamic> SaveProjectWorkStatusFileuploadAsync(string? P_CLNT_WORK_STATUS_ID, string attachfilepath, UserTocken ut)
         {
             try
             {
@@ -823,7 +823,7 @@ namespace FMS_API.Repositry
                         command.CommandType = CommandType.StoredProcedure;
 
                         // Input Parameters
-                        command.Parameters.Add("P_WORK_ID", OracleDbType.Varchar2, workId, ParameterDirection.Input);
+                        command.Parameters.Add("P_CLNT_WORK_STATUS_ID", OracleDbType.Varchar2, P_CLNT_WORK_STATUS_ID, ParameterDirection.Input);
                         command.Parameters.Add("P_ATTACH_FILE_PATH", OracleDbType.Varchar2, attachfilepath, ParameterDirection.Input);
                         command.Parameters.Add("P_CREATE_USER", OracleDbType.Varchar2, ut.AUSR_ID, ParameterDirection.Input);
 

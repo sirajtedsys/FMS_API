@@ -1657,6 +1657,53 @@ ORDER BY W.CREATE_DATE DESC
             }
         }
 
+        public async Task<dynamic> GetWorkStatusUpAttach(string P_CLNT_WORK_STATUS_ID)
+        {
+            DataTable FileAttachTable = new DataTable();
+
+
+            string query = @"
+       select ATTACH_FILE_ID,CLNT_WORK_STATUS_ID, ATTACH_FILE_PATH,CREATE_USER  from PRMTRANS.INV_PRJT_WORK_ATTACHMENT where CLNT_WORK_STATUS_ID =:CLNT_WORK_STATUS_ID";
+            try
+            {
+                using (var connection = new OracleConnection(_con))
+                {
+                    var command = new OracleCommand(query, connection);
+                    command.Parameters.Add(new OracleParameter(":CLNT_WORK_STATUS_ID", P_CLNT_WORK_STATUS_ID));
+
+                    var adapter = new OracleDataAdapter(command);
+
+                    // Fill the DataTable with the result set
+                    adapter.Fill(FileAttachTable);
+                }
+
+                // Return the populated DataTable
+                //return workAssignmentsTable;
+
+                return new DefaultMessage.Message3 { Status = 200, Data = FileAttachTable };
+            }
+            catch (OracleException sqlEx)
+            {
+                // Log the error or handle it accordingly
+                //Console.WriteLine($"Oracle Error: {sqlEx.Message}");
+
+                return new DefaultMessage.Message1 { Status = 500, Message = "Unexpected Error: " + sqlEx.Message };
+                // Optionally, you can throw or return an empty DataTable
+                //return new DataTable(); // Return an empty DataTable if the query fails
+            }
+            catch (Exception ex)
+            {
+                // Log the error or handle it accordingly
+
+                return new DefaultMessage.Message1 { Status = 500, Message = "Unexpected Error: " + ex.Message };
+                // Optionally, you can throw or return an empty DataTable
+                //return new DataTable(); // Return an empty DataTable if an unexpected error occurs
+            }
+        }
+
+
+
+        
         public async Task<dynamic> GetActiveProjects()
         {
             List<dynamic> projects = new List<dynamic>();
@@ -1858,30 +1905,38 @@ ORDER BY W.CREATE_DATE DESC
             try
             {
                 var sql = @"
-            SELECT 
-                D.PROJECT_WORK_NO, 
-                D.PROJECT_WORK_REFNO, 
-                D.PROJECT_WORK_DATE, 
-                D.CALLED_DESCRIPTION, 
-                C.EMP_NAME, 
-                B.CLIENT_WORK_STATUS, 
-                B.CLIENT_WORK_STATUS_ID, 
-                A.PROJECT_WORK_ID, 
-                A.CLIENT_WORK_STATUS_ID, 
-                A.CREATE_USER, 
-                A.CREATE_DATE, 
-                A.UPDATE_USER, 
-                A.UPDATE_DATE, 
-                A.REMARKS, 
-                A.EXTERNAL_REMARKS,
-                B.FOR_COLOR_CODE
-            FROM PRMMASTER.INV_CLIENT_WORK_STS_UPD A
-            INNER JOIN PRMMASTER.INV_CLIENT_WORK_STATUS B ON A.CLIENT_WORK_STATUS_ID = B.CLIENT_WORK_STATUS_ID
-            INNER JOIN PRMMASTER.HRM_EMPLOYEE C ON C.EMP_ID = A.CREATE_USER
-            INNER JOIN PRMTRANS.INV_PROJECT_WORK D ON D.PROJECT_WORK_ID = A.PROJECT_WORK_ID
-          
-            WHERE A.PROJECT_WORK_ID = :projectWorkId
-            ORDER BY B.CLIENT_WORK_STATUS_ID DESC";
+          SELECT 
+    D.PROJECT_WORK_NO, 
+    D.PROJECT_WORK_REFNO, 
+    D.PROJECT_WORK_DATE, 
+    D.CALLED_DESCRIPTION, 
+    C.EMP_NAME, 
+    B.CLIENT_WORK_STATUS, 
+    B.CLIENT_WORK_STATUS_ID, 
+    A.PROJECT_WORK_ID, 
+    A.CLNT_WORK_STATUS_ID, 
+    A.CREATE_USER, 
+    A.CREATE_DATE, 
+    A.UPDATE_USER, 
+    A.UPDATE_DATE, 
+    A.REMARKS, 
+    A.EXTERNAL_REMARKS,
+    B.FOR_COLOR_CODE,   
+    NVL(ATTACH_FILE_COUNT, 0) AS ATTACH_FILE_COUNT
+FROM PRMMASTER.INV_CLIENT_WORK_STS_UPD A
+INNER JOIN PRMMASTER.INV_CLIENT_WORK_STATUS B ON A.CLIENT_WORK_STATUS_ID = B.CLIENT_WORK_STATUS_ID
+INNER JOIN PRMMASTER.HRM_EMPLOYEE C ON C.EMP_ID = A.CREATE_USER
+INNER JOIN PRMTRANS.INV_PROJECT_WORK D ON D.PROJECT_WORK_ID = A.PROJECT_WORK_ID
+LEFT JOIN (
+    SELECT 
+        COUNT(ATTACH_FILE_ID) AS ATTACH_FILE_COUNT,
+        CLNT_WORK_STATUS_ID 
+    FROM PRMTRANS.INV_PRJT_WORK_ATTACHMENT 
+    GROUP BY CLNT_WORK_STATUS_ID
+)WAT ON WAT.CLNT_WORK_STATUS_ID = A.CLNT_WORK_STATUS_ID
+WHERE A.PROJECT_WORK_ID = :projectWorkId
+ORDER BY B.CLIENT_WORK_STATUS_ID DESC
+";
 
                 using var command = _DbContext.Database.GetDbConnection().CreateCommand();
                 command.CommandText = sql;
