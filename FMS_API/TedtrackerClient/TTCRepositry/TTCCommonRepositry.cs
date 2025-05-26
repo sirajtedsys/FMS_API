@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Oracle.ManagedDataAccess.Client;
 using System.Data;
 using System.Data.Common;
+using System.Dynamic;
 using System.Globalization;
 using static FMS_API.Repositry.ExpenseTrackerRepositry;
 using static JwtService;
@@ -771,6 +772,137 @@ ORDER BY W.CREATE_DATE DESC
             {
 
                 return new { Status = 500, Message = $"Error: {ex.Message}" };
+            }
+        }
+
+
+
+
+
+
+        public async Task<dynamic> UpdateProjectWorkConfirmation(string projectWorkId)
+        {
+            using (var conn = new OracleConnection(_con))
+            {
+                try
+                {
+                    conn.Open();
+                    using (var cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = @"
+                        UPDATE PRMTRANS.INV_PROJECT_WORK
+                        SET 
+                            CONFIRMED_BY = '',
+                            CONFIRMED_ON = SYSDATE,
+                            CONFIRMED_STATUS = ''
+                        WHERE PROJECT_WORK_ID = :projectWorkId";
+
+                        cmd.Parameters.Add("projectWorkId", OracleDbType.Varchar2).Value = projectWorkId;
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+
+                            return new { Status = 200, Message = "Work Confirmed successfully." };
+                        }
+                        else
+                        {
+
+                            return new { Status = 400, Message = "Error while work confirmation" };
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Log or handle the error as needed
+
+                    return new { Status = 500, Message = ex.Message };
+
+                }
+            }
+        }
+
+        public async Task<dynamic> UpdateProjectWorkStatus(string projectWorkId, string projectWorkStatusId, string updateRemarks)
+        {
+            using (var conn = new OracleConnection(_con))
+            {
+                try
+                {
+                    await conn.OpenAsync();
+
+                    using (var cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = @"
+                    UPDATE PRMTRANS.INV_PROJECT_WORK 
+                    SET 
+                        PROJECT_WORK_STATUS_ID = :projectWorkStatusId,
+                        UPDATE_REMARKS = :updateRemarks
+                    WHERE PROJECT_WORK_ID = :projectWorkId";
+
+                        cmd.Parameters.Add("projectWorkStatusId", OracleDbType.Varchar2).Value = projectWorkStatusId ?? string.Empty;
+                        cmd.Parameters.Add("updateRemarks", OracleDbType.Varchar2).Value = updateRemarks ?? string.Empty;
+                        cmd.Parameters.Add("projectWorkId", OracleDbType.Varchar2).Value = projectWorkId;
+
+                        int rowsAffected = await cmd.ExecuteNonQueryAsync();
+
+                        if (rowsAffected > 0)
+                        {
+                            return new { Status = 200, Message = "Work status updated successfully." };
+                        }
+                        else
+                        {
+                            return new { Status = 400, Message = "No record found to update." };
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return new { Status = 500, Message = ex.Message };
+                }
+            }
+        }
+
+
+        public async Task<dynamic> GetClientWorkStatusesAsync()
+        {
+            var resultList = new List<dynamic>();
+
+            using (var conn = new OracleConnection(_con))
+            {
+                try
+                {
+                    await conn.OpenAsync();
+
+                    using (var cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = @"
+                        SELECT CLIENT_WORK_STATUS_ID, CLIENT_WORK_STATUS, ACTIVE_STATUS, FOR_COLOR_CODE 
+                        FROM PRMMASTER.INV_CLIENT_WORK_STATUS 
+                        WHERE NVL(SHOW_CLIENT,'N') = 'Y' 
+                          AND NVL(ACTIVE_STATUS,'A') = 'A'";
+
+                        using (var reader = await cmd.ExecuteReaderAsync())
+                        {
+                            while (await reader.ReadAsync())
+                            {
+                                dynamic row = new ExpandoObject();
+                                row.CLIENT_WORK_STATUS_ID = reader["CLIENT_WORK_STATUS_ID"]?.ToString();
+                                row.CLIENT_WORK_STATUS = reader["CLIENT_WORK_STATUS"]?.ToString();
+                                row.ACTIVE_STATUS = reader["ACTIVE_STATUS"]?.ToString();
+                                row.FOR_COLOR_CODE = reader["FOR_COLOR_CODE"]?.ToString();
+
+                                resultList.Add(row);
+                            }
+                        }
+                    }
+
+                    return new { Status = 200,Data = resultList };
+                }
+                catch (Exception ex)
+                {
+
+                    return new { Status = 500, Message = ex.Message };
+                }
             }
         }
    

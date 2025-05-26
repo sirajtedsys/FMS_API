@@ -808,5 +808,147 @@ namespace FMS_API.TedtrackerClient.TTCController
 
 
 
+
+        [HttpGet("UpdateProjectWorkConfirmation")]
+        public async Task<dynamic> UpdateProjectWorkConfirmation(string projectWorkId)
+        {
+            try
+            {
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                ProjectUserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {     // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.UpdateProjectWorkConfirmation(projectWorkId);
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error in GetClientWorkStatusByProjectIdAsync: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+        [HttpGet("GetClientWorkStatusesAsync")]
+        public async Task<dynamic> GetClientWorkStatusesAsync()
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                ProjectUserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.GetClientWorkStatusesAsync();
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error in GetActiveClientWorkStatuses: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+        [HttpGet("UpdateProjectWorkStatus")]
+        public async Task<dynamic> UpdateProjectWorkStatus(string projectWorkId, string projectWorkStatusId, string updateRemarks)
+        {
+            try
+            {
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                ProjectUserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {     // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.UpdateProjectWorkStatus(projectWorkId, projectWorkStatusId, updateRemarks);
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error in UpdateProjectWorkStatus: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+
     }
 }
