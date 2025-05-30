@@ -860,7 +860,7 @@ namespace FMS_API.Controllers
 
 
         [HttpGet("UpdateLeaveRequest")]
-        public async Task<dynamic> UpdateLeaveRequest(string leaveRequestId, DateTime fromDate, DateTime toDate, string leaveReason)
+        public async Task<dynamic> UpdateLeaveRequest(string leaveRequestId, DateTime fromDate, DateTime toDate, string leaveReason,string LeaveTypeId)
         {
             try
             {
@@ -893,7 +893,7 @@ namespace FMS_API.Controllers
                 {
                     // Return user details or appropriate response
                     //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
-                    return await comrep.UpdateLeaveRequest(leaveRequestId, fromDate, toDate, leaveReason);
+                    return await comrep.UpdateLeaveRequest(leaveRequestId, fromDate, toDate, leaveReason, LeaveTypeId);
                 }
                 else
                 {
@@ -908,6 +908,8 @@ namespace FMS_API.Controllers
             }
 
         }
+
+
 
         [HttpGet("ChangeLeaveRequeststatus")]
         public async Task<dynamic> ChangeLEaveRequeststatus(string leaveRequestId, DateTime approvedDate, string statusId, string remarks)

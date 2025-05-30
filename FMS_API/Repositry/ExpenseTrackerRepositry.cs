@@ -1029,7 +1029,7 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
                 //var today = DateTime.Today; // This gives "15/05/2025 00:00:00"
                 var specificDate = DateTime.ParseExact(parameters.LeaveRequestDate, "dd/MM/yyyy", CultureInfo.InvariantCulture);
                 command.Parameters.Add("P_LEAVE_REQ_DATE", OracleDbType.Date).Value = specificDate;
-                command.Parameters.Add("P_LEAVE_TYPE_ID", OracleDbType.Date).Value = parameters.P_LEAVE_TYPE_ID;
+                command.Parameters.Add("P_LEAVE_TYPE_ID", OracleDbType.Varchar2).Value = parameters.P_LEAVE_TYPE_ID;
 
 
 
@@ -1162,7 +1162,7 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
         }
 
 
-        public async Task<dynamic> UpdateLeaveRequest(string leaveRequestId, DateTime fromDate, DateTime toDate, string leaveReason)
+        public async Task<dynamic> UpdateLeaveRequest(string leaveRequestId, DateTime fromDate, DateTime toDate, string leaveReason,string LeaveTypeId)
         {
             if (string.IsNullOrWhiteSpace(leaveRequestId))
                 throw new ArgumentException("LeaveRequestId cannot be null or empty.");
@@ -1175,7 +1175,9 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
                     UPDATE PRMTRANS.HRM_EMP_LEAVE_REQUEST
                     SET FROM_DATE = :FromDate,
                         TO_DATE = :ToDate,
-                        LEAVE_REASON = :LeaveReason
+                        LEAVE_REASON = :LeaveReason,
+                        LEAVE_TYPE_ID= :LeaveTypeId
+
                     WHERE LEAVE_REQUEST_ID = :LeaveRequestId";
 
                     using (var command = new OracleCommand(query, connection))
@@ -1183,6 +1185,7 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
                         command.Parameters.Add("FromDate", OracleDbType.Date).Value = fromDate;
                         command.Parameters.Add("ToDate", OracleDbType.Date).Value = toDate;
                         command.Parameters.Add("LeaveReason", OracleDbType.Varchar2).Value = leaveReason;
+                        command.Parameters.Add("LeaveTypeId", OracleDbType.Varchar2).Value = LeaveTypeId;
                         command.Parameters.Add("LeaveRequestId", OracleDbType.Varchar2).Value = leaveRequestId;
 
                         connection.Open();
