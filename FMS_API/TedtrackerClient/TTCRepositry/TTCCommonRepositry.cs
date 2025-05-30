@@ -879,6 +879,45 @@ ORDER BY W.CREATE_DATE DESC
             }
         }
 
+        public async Task<dynamic> UpdateProjectWorkStatus(string projectWorkId, string projectWorkStatusId, string updateRemarks)
+        {
+            using (var conn = new OracleConnection(_con))
+            {
+                try
+                {
+                    await conn.OpenAsync();
+
+                    using (var cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = @"
+                    UPDATE PRMTRANS.INV_PROJECT_WORK 
+                    SET 
+                        PROJECT_WORK_STATUS_ID = :projectWorkStatusId,
+                        UPDATE_REMARKS = :updateRemarks
+                    WHERE PROJECT_WORK_ID = :projectWorkId";
+
+                        cmd.Parameters.Add("projectWorkStatusId", OracleDbType.Varchar2).Value = projectWorkStatusId ?? string.Empty;
+                        cmd.Parameters.Add("updateRemarks", OracleDbType.Varchar2).Value = updateRemarks ?? string.Empty;
+                        cmd.Parameters.Add("projectWorkId", OracleDbType.Varchar2).Value = projectWorkId;
+
+                        int rowsAffected = await cmd.ExecuteNonQueryAsync();
+
+                        if (rowsAffected > 0)
+                        {
+                            return new { Status = 200, Message = "Work status updated successfully." };
+                        }
+                        else
+                        {
+                            return new { Status = 400, Message = "No record found to update." };
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return new { Status = 500, Message = ex.Message };
+                }
+            }
+        }
 
         public async Task<dynamic> GetClientWorkStatusesAsync()
         {
