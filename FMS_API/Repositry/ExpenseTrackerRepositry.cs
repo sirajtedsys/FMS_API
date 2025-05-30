@@ -1029,6 +1029,7 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
                 //var today = DateTime.Today; // This gives "15/05/2025 00:00:00"
                 var specificDate = DateTime.ParseExact(parameters.LeaveRequestDate, "dd/MM/yyyy", CultureInfo.InvariantCulture);
                 command.Parameters.Add("P_LEAVE_REQ_DATE", OracleDbType.Date).Value = specificDate;
+                command.Parameters.Add("P_LEAVE_TYPE_ID", OracleDbType.Date).Value = parameters.P_LEAVE_TYPE_ID;
 
 
 
@@ -1076,9 +1077,12 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
                     L.STATUS_ID,
                     LEAVE_STATUS,
                     L.CREATE_DATE,
-                    LEAVE_REQ_DATE
+                    LT.LEAVE_TYPE_ID ,
+                    LT.LEAVE_TYPE,
+                    LEAVE_REQ_DATE        
                 FROM PRMTRANS.HRM_EMP_LEAVE_REQUEST L
                 INNER JOIN PRMMASTER.HRM_LEAVE_STATUS S ON S.LEAVE_STATUS_ID = L.STATUS_ID
+                INNER JOIN PRMMASTER.HRM_LEAVE_TYPE LT ON LT.LEAVE_TYPE_ID = L.LEAVE_TYPE_ID
                 WHERE L.CREATE_USER = :createUser", connection);
 
                 command.Parameters.Add("createUser", OracleDbType.Varchar2).Value = createUser;
@@ -1255,6 +1259,45 @@ WHERE NVL(D.ACTIVE_STATUS, 'A') = 'A'
             return new { Status = 200, Data = results };
         }
 
+        public async Task<dynamic> GetLeaveType()
+        {
+            var results = new List<dynamic>();
+
+            string query = @"SELECT LEAVE_TYPE_ID, LEAVE_TYPE, ACTIVE_TYPE FROM PRMMASTER.HRM_LEAVE_TYPE WHERE NVL(ACTIVE_TYPE,'A')='A'";
+
+            try
+            {
+                using (var connection = new OracleConnection(_con))
+                using (var command = new OracleCommand(query, connection))
+                {
+                    connection.Open();
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            dynamic row = new ExpandoObject();
+                            row.LeaveTypeId = reader["LEAVE_TYPE_ID"];
+                            row.LeaveType = reader["LEAVE_TYPE"];
+                            row.LeaveTypeStatus = reader["ACTIVE_TYPE"];
+                            results.Add(row);
+                        }
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                // Log or handle Oracle-specific exceptions
+                return new { Status = 500, Message = ex.Message };
+            }
+            catch (Exception ex)
+            {
+                // Handle any other exceptions
+                return new { Status = 500, Message = ex.Message };
+            }
+
+            return new { Status = 200, Data = results };
+        }
+
 
         public async Task<dynamic> ChangeLEaveRequeststatus(string leaveRequestId, DateTime approvedDate, string approvedUser, string statusId, string remarks)
         {
@@ -1316,6 +1359,8 @@ SELECT
     LEAVE_REQ_NO,
     L.STATUS_ID,
     LEAVE_STATUS,
+    LT.LEAVE_TYPE_ID,
+    LT.LEAVE_TYPE,
     L.CREATE_DATE,
     LEAVE_REQ_DATE
 FROM 
@@ -1324,6 +1369,8 @@ INNER JOIN
     PRMMASTER.HRM_LEAVE_STATUS S ON S.LEAVE_STATUS_ID = L.STATUS_ID
 INNER JOIN 
     PRMMASTER.HRM_EMPLOYEE E ON E.EMP_ID = L.CREATE_USER
+
+                INNER JOIN PRMMASTER.HRM_LEAVE_TYPE LT ON LT.LEAVE_TYPE_ID = L.LEAVE_TYPE_ID
 WHERE 
     L.FROM_DATE >= :DateFrom 
     AND L.TO_DATE <= :DateTo
@@ -1361,6 +1408,8 @@ WHERE
                                 LeaveReqNo = reader["LEAVE_REQ_NO"]?.ToString(),
                                 StatusId = reader["STATUS_ID"]?.ToString(),
                                 LeaveStatus = reader["LEAVE_STATUS"]?.ToString(),
+                                leaveTypeID = reader["LEAVE_TYPE_ID"]?.ToString(),
+                                LeaveType = reader["LEAVE_TYPE"]?.ToString(),
                                 CreateDate = reader["CREATE_DATE"] != DBNull.Value ? Convert.ToDateTime(reader["CREATE_DATE"]) : (DateTime?)null,
                                 LeaveReqDate = reader["LEAVE_REQ_DATE"] != DBNull.Value ? Convert.ToDateTime(reader["LEAVE_REQ_DATE"]) : (DateTime?)null
                             });

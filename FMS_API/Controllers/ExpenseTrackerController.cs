@@ -1054,7 +1054,7 @@ namespace FMS_API.Controllers
 
         }
 
-
+        
 
         [HttpGet("GetAllLeaveStatuses")]
         public async Task<dynamic> GetAllLeaveStatuses()
@@ -1088,6 +1088,54 @@ namespace FMS_API.Controllers
                     // Return user details or appropriate response
                     //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
                     return await comrep.GetAllLeaveStatuses();
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the GetActiveProjects
+                Console.WriteLine($"Error in GetAllLeaveStatuses: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+        [HttpGet("GetLeaveType")]
+        public async Task<dynamic> GetLeaveType()
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.GetLeaveType();
                 }
                 else
                 {

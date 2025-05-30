@@ -10,7 +10,9 @@
             public string? CreateUser { get; set; }
             public string LeaveReason { get; set; }
             public string LeaveRequestDate { get; set; }
-        
+        public string P_LEAVE_TYPE_ID { get; set; }
+
+
 
     }
 }
