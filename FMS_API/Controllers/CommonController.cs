@@ -5,6 +5,7 @@ using FMS_API.Data.Class;
 using FMS_API.Repositry;
 using static JwtService;
 using System.Runtime.ConstrainedExecution;
+using Microsoft.Extensions.Configuration;
 
 namespace FMS_API.Controllers
 {
@@ -15,10 +16,14 @@ namespace FMS_API.Controllers
         private readonly CommonRepositry comrep;
         private readonly JwtHandler jwtHandler;
 
-        public CommonController(CommonRepositry _comrep, JwtHandler _jwthand)
+        private readonly IConfiguration Iconfiguration;
+
+        public CommonController(CommonRepositry _comrep, JwtHandler _jwthand, IConfiguration _iconf)
         {
             comrep = _comrep;
             jwtHandler = _jwthand;
+
+            Iconfiguration = _iconf;
         }
 
 
@@ -132,8 +137,106 @@ namespace FMS_API.Controllers
 
         }
 
-        
-              [HttpGet("GetUserDetails")]
+
+        [HttpGet("GetCreditbill")]
+        public async Task<dynamic> GetCreditbill(string fromDate, string toDate, string custid = null)
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.GetCreditbill(fromDate, toDate, custid);
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error in GetOnepartyitemwiseDetails: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+        [HttpGet("GetCreditbillsettled")]
+        public async Task<dynamic> GetCreditbillsettled(string fromDate, string toDate, string custid = null)
+        {
+            try
+            {
+                // Retrieve token from Authorization header
+                string authorizationHeader = Request.Headers["Authorization"];
+
+                if (string.IsNullOrEmpty(authorizationHeader))
+                {
+                    return Unauthorized();
+                }
+
+                // Extract token from header (remove "Bearer " prefix)
+                string token = authorizationHeader.Replace("Bearer ", "");
+
+                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+                if (decodedToken == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Validate token
+                var isValid = await jwtHandler.ValidateToken(token);
+
+                if (isValid)
+                {
+                    // Return user details or appropriate response
+                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+                    return await comrep.GetCreditbillsettled(fromDate, toDate, custid);
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error in GetCreditbillsettled: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+
+
+
+
+        [HttpGet("GetUserDetails")]
         public async Task<dynamic> GetUserDetails()
         {
             try
@@ -226,6 +329,28 @@ namespace FMS_API.Controllers
             }
 
         }
+
+
+        [HttpGet("GetCreditbillSettings")]
+        public async Task<dynamic> GetCreditbillSettings()
+        {
+            var section = Iconfiguration.GetSection("CreditbillSettlement")
+                           .GetChildren()
+                           .ToDictionary(x => x.Key, x => x.Value);
+
+            dynamic creditSettings = new System.Dynamic.ExpandoObject();
+            foreach (var kvp in section)
+            {
+                ((IDictionary<string, object>)creditSettings)[kvp.Key] = kvp.Value;
+            }
+
+            return new DefaultMessage.Message3
+            {
+                Status = 200,
+                Data = new { Creditbill = creditSettings }
+            };
+        }
+
 
 
 

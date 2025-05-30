@@ -8,6 +8,7 @@ using System.Dynamic;
 using static JwtService;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FMS_API.Repositry
 {
@@ -303,6 +304,48 @@ namespace FMS_API.Repositry
         }
 
 
+
+
+        public async Task<dynamic> GetCreditbill(string fromDate, string toDate, string custid = null)
+        {
+            try
+            {
+
+
+                using (OracleConnection conn = new OracleConnection(_con))
+                using (OracleCommand cmd = new OracleCommand("PRMTRANS.SP_ONLN_CREDIT_BILL_PENDING", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    // Input Parameters
+                    cmd.Parameters.Add("FROMDATE", OracleDbType.Varchar2).Value = fromDate ?? (object)DBNull.Value;
+                    cmd.Parameters.Add("TODATE", OracleDbType.Varchar2).Value = toDate ?? (object)DBNull.Value;
+                    //cmd.Parameters.Add("STRITEM_FILTER", OracleDbType.Varchar2).Value = itemid ?? (object)DBNull.Value;
+                    cmd.Parameters.Add("STRCUST_FILTER", OracleDbType.Varchar2).Value = custid ?? (object)DBNull.Value;
+
+
+                    // Output Parameter (Cursor)
+                    OracleParameter outputCursor = new OracleParameter("STROUT", OracleDbType.RefCursor)
+                    {
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(outputCursor);
+
+                    // Execute Query
+                    OracleDataAdapter da = new OracleDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    return new DefaultMessage.Message3 { Status = 200, Data = dt };
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
+            }
+
+        }
 
 
 
@@ -877,6 +920,56 @@ namespace FMS_API.Repositry
 
             return resultTable;
         }
+
+
+        public async Task<dynamic> GetCreditbillsettled(string fromDate, string toDate, string custid = null)
+        {
+            try
+            {
+
+
+                using (OracleConnection conn = new OracleConnection(_con))
+                using (OracleCommand cmd = new OracleCommand("PRMTRANS.SP_ONLN_CR_BILL_SETTLE_DTLS", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    // Input Parameters
+                    cmd.Parameters.Add("FROMDATE", OracleDbType.Varchar2).Value = fromDate ?? (object)DBNull.Value;
+                    cmd.Parameters.Add("TODATE", OracleDbType.Varchar2).Value = toDate ?? (object)DBNull.Value;
+                    //cmd.Parameters.Add("STRITEM_FILTER", OracleDbType.Varchar2).Value = itemid ?? (object)DBNull.Value;
+                    cmd.Parameters.Add("STRCUST_FILTER", OracleDbType.Varchar2).Value = custid ?? (object)DBNull.Value;
+
+
+                    // Output Parameter (Cursor)
+                    OracleParameter outputCursor = new OracleParameter("STROUT", OracleDbType.RefCursor)
+                    {
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(outputCursor);
+
+                    // Execute Query
+                    OracleDataAdapter da = new OracleDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    return new DefaultMessage.Message3 { Status = 200, Data = dt };
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
+            }
+
+        }
+
+
+
+
+
+
+
+
         #endregion Credit bill settlement
     }
 }

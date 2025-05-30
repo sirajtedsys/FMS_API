@@ -1657,8 +1657,9 @@ public async Task<dynamic> GetItemwiseSale(string fromDate, string toDate)
 
 		}
 
+
         [HttpGet("GetOneitemAllparties")]
-        public async Task<dynamic> GetOneitemAllparties(string fromDate, string toDate, string itemid)
+        public async Task<dynamic> GetOneitemAllparties(string fromDate, string toDate, string itemid = null, string sctid = null)
         {
             try
             {
@@ -1688,7 +1689,7 @@ public async Task<dynamic> GetItemwiseSale(string fromDate, string toDate)
                 {
                     // Return user details or appropriate response
                     //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
-                    return await comrep.GetOneitemAllparties(fromDate, toDate, itemid);
+                    return await comrep.GetOneitemAllparties(fromDate, toDate, itemid, sctid);
                 }
                 else
                 {
@@ -1705,7 +1706,55 @@ public async Task<dynamic> GetItemwiseSale(string fromDate, string toDate)
         }
 
 
-		[HttpGet("GetItem")]
+        //[HttpGet("GetOneitemAllparties")]
+        //public async Task<dynamic> GetOneitemAllparties(string fromDate, string toDate, string itemid)
+        //{
+        //    try
+        //    {
+        //        // Retrieve token from Authorization header
+        //        string authorizationHeader = Request.Headers["Authorization"];
+
+        //        if (string.IsNullOrEmpty(authorizationHeader))
+        //        {
+        //            return Unauthorized();
+        //        }
+
+        //        // Extract token from header (remove "Bearer " prefix)
+        //        string token = authorizationHeader.Replace("Bearer ", "");
+
+        //        // Decode token (not decrypt, assuming DecriptTocken is for decoding)
+        //        UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
+
+        //        if (decodedToken == null)
+        //        {
+        //            return Unauthorized();
+        //        }
+
+        //        // Validate token
+        //        var isValid = await jwtHandler.ValidateToken(token);
+
+        //        if (isValid)
+        //        {
+        //            // Return user details or appropriate response
+        //            //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
+        //            return await comrep.GetOneitemAllparties(fromDate, toDate, itemid);
+        //        }
+        //        else
+        //        {
+        //            return Unauthorized();
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Log the exception
+        //        Console.WriteLine($"Error in GetOneitemwAllparties: {ex.Message}");
+        //        return StatusCode(500, "Internal server error");
+        //    }
+
+        //}
+
+
+        [HttpGet("GetItem")]
 		public async Task<dynamic> GetItem(DateTime fromDate, DateTime toDate)
 		{
 			try

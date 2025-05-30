@@ -1974,88 +1974,128 @@ ORDER BY ITEM_GROUP, ITEM_NAME";
 
 		}
 
-		public async Task<dynamic> GetOneitemAllparties(string fromDate, string toDate, string itemid)
-		{
-			try
-			{
+        public async Task<dynamic> GetOneitemAllparties(string fromDate, string toDate, string itemid, string sctid )
+        {
+            try
+            {
 
 
-				using (OracleConnection conn = new OracleConnection(_con))
-				using (OracleCommand cmd = new OracleCommand("PRMTRANS.SP_ONLN_ONE_ITEM_ALL_PARTIES", conn))
-				{
-					cmd.CommandType = CommandType.StoredProcedure;
+                using (OracleConnection conn = new OracleConnection(_con))
+                using (OracleCommand cmd = new OracleCommand("PRMTRANS.SP_ONLN_ONE_ITEM_ALL_PARTIES", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
 
-					// Input Parameters
-					cmd.Parameters.Add("FROMDATE", OracleDbType.Varchar2).Value = fromDate ?? (object)DBNull.Value;
-					cmd.Parameters.Add("TODATE", OracleDbType.Varchar2).Value = toDate ?? (object)DBNull.Value;
-					cmd.Parameters.Add("STRITEM_FILTER", OracleDbType.Varchar2).Value = itemid ?? (object)DBNull.Value;
-					// Output Parameter (Cursor)
-					OracleParameter outputCursor = new OracleParameter("STROUT", OracleDbType.RefCursor)
-					{
-						Direction = ParameterDirection.Output
-					};
-					cmd.Parameters.Add(outputCursor);
+                    // Input Parameters
+                    cmd.Parameters.Add("FROMDATE", OracleDbType.Varchar2).Value = fromDate ?? (object)DBNull.Value;
+                    cmd.Parameters.Add("TODATE", OracleDbType.Varchar2).Value = toDate ?? (object)DBNull.Value;
+                    cmd.Parameters.Add("STRITEM_FILTER", OracleDbType.Varchar2).Value = itemid ?? (object)DBNull.Value;
+                    cmd.Parameters.Add("STRSCTID_FILTER", OracleDbType.Varchar2).Value = sctid ?? (object)DBNull.Value;
+                    // Output Parameter (Cursor)
+                    OracleParameter outputCursor = new OracleParameter("STROUT", OracleDbType.RefCursor)
+                    {
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(outputCursor);
 
-					// Execute Query
-					OracleDataAdapter da = new OracleDataAdapter(cmd);
-					DataTable dt = new DataTable();
-					da.Fill(dt);
+                    // Execute Query
+                    OracleDataAdapter da = new OracleDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
 
-					return new DefaultMessage.Message3 { Status = 200, Data = dt };
-				}
-			}
-			catch (Exception ex)
-			{
+                    return new DefaultMessage.Message3 { Status = 200, Data = dt };
+                }
+            }
+            catch (Exception ex)
+            {
 
-				return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
-			}
+                return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
+            }
 
-		}
-
-		//public async Task<dynamic> GetItem()
-		//{
-		//	List<dynamic> customers = new List<dynamic>();
-
-		//	try
-		//	{
-		//		using (OracleConnection conn = new OracleConnection(_con))
-		//		{
-		//			await conn.OpenAsync();
-
-		//			string query = @"
-		//              select ITEM_ID,ITEM_NAME from PRMMASTER.INV_ITEM where ACTIVE_STATUS='A'";
-
-		//			using (OracleCommand cmd = new OracleCommand(query, conn))
-		//			{
-
-		//				using (OracleDataReader reader = await cmd.ExecuteReaderAsync())
-		//				{
-		//					while (await reader.ReadAsync())
-		//					{
-		//						customers.Add(new
-		//						{
-		//							ITEM_ID = reader.GetInt32(0),
-		//							ITEM_NAME = reader.GetString(1)
-		//						});
-		//					}
-		//				}
-		//			}
-		//		}
-		//	}
-		//	catch (OracleException ex)
-		//	{
-		//		return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
-		//	}
-		//	catch (Exception ex)
-		//	{
-		//		return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
-		//	}
-
-		//	return new DefaultMessage.Message3 { Status = 200, Data = customers };
-		//}
+        }
 
 
-		public async Task<dynamic> GetItem(DateTime fromDate, DateTime toDate)
+        //public async Task<dynamic> GetOneitemAllparties(string fromDate, string toDate, string itemid)
+        //{
+        //	try
+        //	{
+
+
+        //		using (OracleConnection conn = new OracleConnection(_con))
+        //		using (OracleCommand cmd = new OracleCommand("PRMTRANS.SP_ONLN_ONE_ITEM_ALL_PARTIES", conn))
+        //		{
+        //			cmd.CommandType = CommandType.StoredProcedure;
+
+        //			// Input Parameters
+        //			cmd.Parameters.Add("FROMDATE", OracleDbType.Varchar2).Value = fromDate ?? (object)DBNull.Value;
+        //			cmd.Parameters.Add("TODATE", OracleDbType.Varchar2).Value = toDate ?? (object)DBNull.Value;
+        //			cmd.Parameters.Add("STRITEM_FILTER", OracleDbType.Varchar2).Value = itemid ?? (object)DBNull.Value;
+        //			// Output Parameter (Cursor)
+        //			OracleParameter outputCursor = new OracleParameter("STROUT", OracleDbType.RefCursor)
+        //			{
+        //				Direction = ParameterDirection.Output
+        //			};
+        //			cmd.Parameters.Add(outputCursor);
+
+        //			// Execute Query
+        //			OracleDataAdapter da = new OracleDataAdapter(cmd);
+        //			DataTable dt = new DataTable();
+        //			da.Fill(dt);
+
+        //			return new DefaultMessage.Message3 { Status = 200, Data = dt };
+        //		}
+        //	}
+        //	catch (Exception ex)
+        //	{
+
+        //		return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
+        //	}
+
+        //}
+
+        //public async Task<dynamic> GetItem()
+        //{
+        //	List<dynamic> customers = new List<dynamic>();
+
+        //	try
+        //	{
+        //		using (OracleConnection conn = new OracleConnection(_con))
+        //		{
+        //			await conn.OpenAsync();
+
+        //			string query = @"
+        //              select ITEM_ID,ITEM_NAME from PRMMASTER.INV_ITEM where ACTIVE_STATUS='A'";
+
+        //			using (OracleCommand cmd = new OracleCommand(query, conn))
+        //			{
+
+        //				using (OracleDataReader reader = await cmd.ExecuteReaderAsync())
+        //				{
+        //					while (await reader.ReadAsync())
+        //					{
+        //						customers.Add(new
+        //						{
+        //							ITEM_ID = reader.GetInt32(0),
+        //							ITEM_NAME = reader.GetString(1)
+        //						});
+        //					}
+        //				}
+        //			}
+        //		}
+        //	}
+        //	catch (OracleException ex)
+        //	{
+        //		return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
+        //	}
+        //	catch (Exception ex)
+        //	{
+        //		return new DefaultMessage.Message1 { Status = 500, Message = ex.Message };
+        //	}
+
+        //	return new DefaultMessage.Message3 { Status = 200, Data = customers };
+        //}
+
+
+        public async Task<dynamic> GetItem(DateTime fromDate, DateTime toDate)
 		{
 			List<dynamic> customers = new List<dynamic>();
 
