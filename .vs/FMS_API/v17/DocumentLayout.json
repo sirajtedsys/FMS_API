@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\controllers\\expensetrackercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\controllers\\expensetrackercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\tedtrackerclient\\ttccontroller\\ttccommoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\tedtrackerclient\\ttccontroller\\ttccommoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\tedtrackerclient\\ttcrepositry\\ttccommonrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\tedtrackerclient\\ttcrepositry\\ttccommonrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\repositry\\expensetrackerrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\repositry\\expensetrackerrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\controllers\\expensetrackercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\controllers\\expensetrackercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\repositry\\commonrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\fms_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\repositry\\salesrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\tedtrackerclient\\ttccontroller\\ttccommoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\tedtrackerclient\\ttccontroller\\ttccommoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\repositry\\attendencerepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\repositry\\attendencerepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\tedtrackerclient\\ttcrepositry\\ttccommonrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|solutionrelative:fms_api\\tedtrackerclient\\ttcrepositry\\ttccommonrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27B6190C-C234-4A57-BC2C-986D267D9DD7}|FMS_API\\FMS_API.csproj|d:\\working\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\fms_api\\fms_api\\controllers\\supportcallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -164,7 +164,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -172,56 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\appsettings.json",
-              "RelativeDocumentMoniker": "FMS_API\\appsettings.json",
-              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\appsettings.json",
-              "RelativeToolTip": "FMS_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAANDMzMzPbvxkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-21T05:48:02.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FMS_API.csproj",
-              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\FMS_API.csproj",
-              "RelativeDocumentMoniker": "FMS_API\\FMS_API.csproj",
-              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\FMS_API.csproj",
-              "RelativeToolTip": "FMS_API\\FMS_API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-21T05:29:01.494Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CommonController.cs",
-              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Controllers\\CommonController.cs",
-              "RelativeDocumentMoniker": "FMS_API\\Controllers\\CommonController.cs",
-              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Controllers\\CommonController.cs",
-              "RelativeToolTip": "FMS_API\\Controllers\\CommonController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T05:47:01.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExpenseTrackerRepositry.cs",
-              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
-              "RelativeDocumentMoniker": "FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
-              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
-              "RelativeToolTip": "FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
-              "ViewState": "AQIAAJsFAAAAAAAAAAAywMYFAACcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T07:12:42.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "LeaveRequest.cs",
               "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Data\\Class\\LeaveRequest.cs",
               "RelativeDocumentMoniker": "FMS_API\\Data\\Class\\LeaveRequest.cs",
@@ -233,20 +184,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ExpenseTrackerController.cs",
               "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Controllers\\ExpenseTrackerController.cs",
               "RelativeDocumentMoniker": "FMS_API\\Controllers\\ExpenseTrackerController.cs",
               "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Controllers\\ExpenseTrackerController.cs",
               "RelativeToolTip": "FMS_API\\Controllers\\ExpenseTrackerController.cs",
-              "ViewState": "AQIAAIMEAAAAAAAAAAAIwJUEAABOAAAA",
+              "ViewState": "AQIAACMEAAAAAAAAAAAmwIQEAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T11:10:54.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CommonRepositry.cs",
               "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Repositry\\CommonRepositry.cs",
               "RelativeDocumentMoniker": "FMS_API\\Repositry\\CommonRepositry.cs",
@@ -259,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AttendenceRepositry.cs",
               "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Repositry\\AttendenceRepositry.cs",
               "RelativeDocumentMoniker": "FMS_API\\Repositry\\AttendenceRepositry.cs",
@@ -269,6 +220,82 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T10:02:33.834Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TTCCommonController.cs",
+              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
+              "RelativeDocumentMoniker": "FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
+              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
+              "RelativeToolTip": "FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
+              "ViewState": "AQIAAEwDAAAAAAAAAAAcwIkDAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:56:41.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TTCCommonRepositry.cs",
+              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
+              "RelativeDocumentMoniker": "FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
+              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
+              "RelativeToolTip": "FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
+              "ViewState": "AQIAAE4DAAAAAAAAAAAUwHADAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T05:45:38.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpenseTrackerRepositry.cs",
+              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
+              "RelativeDocumentMoniker": "FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
+              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
+              "RelativeToolTip": "FMS_API\\Repositry\\ExpenseTrackerRepositry.cs",
+              "ViewState": "AQIAABcFAAAAAAAAAAAcwMYFAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T07:12:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\appsettings.json",
+              "RelativeDocumentMoniker": "FMS_API\\appsettings.json",
+              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\appsettings.json",
+              "RelativeToolTip": "FMS_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAANDMzMzPbvxkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T05:48:02.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommonController.cs",
+              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Controllers\\CommonController.cs",
+              "RelativeDocumentMoniker": "FMS_API\\Controllers\\CommonController.cs",
+              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Controllers\\CommonController.cs",
+              "RelativeToolTip": "FMS_API\\Controllers\\CommonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T05:47:01.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FMS_API.csproj",
+              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\FMS_API.csproj",
+              "RelativeDocumentMoniker": "FMS_API\\FMS_API.csproj",
+              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\FMS_API.csproj",
+              "RelativeToolTip": "FMS_API\\FMS_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T05:29:01.494Z"
             },
             {
               "$type": "Document",
@@ -284,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SalesRepositry.cs",
               "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Repositry\\SalesRepositry.cs",
               "RelativeDocumentMoniker": "FMS_API\\Repositry\\SalesRepositry.cs",
@@ -298,18 +325,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TTCCommonController.cs",
-              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
-              "RelativeDocumentMoniker": "FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
-              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
-              "RelativeToolTip": "FMS_API\\TedtrackerClient\\TTCController\\TTCCommonController.cs",
-              "ViewState": "AQIAAGoBAAAACAAAAAAIwLUDAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:56:41.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "SalesController.cs",
               "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\Controllers\\SalesController.cs",
               "RelativeDocumentMoniker": "FMS_API\\Controllers\\SalesController.cs",
@@ -330,18 +345,6 @@
               "ViewState": "AQIAACsCAABAZ2ZmZmYswIICAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T13:22:38.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TTCCommonRepositry.cs",
-              "DocumentMoniker": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
-              "RelativeDocumentMoniker": "FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
-              "ToolTip": "D:\\WORKING\\siraj\\fms\\source codes\\fms api 11 april 2025\\fmsapi 8 may\\FMS_API\\FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
-              "RelativeToolTip": "FMS_API\\TedtrackerClient\\TTCRepositry\\TTCCommonRepositry.cs",
-              "ViewState": "AQIAAP4CAAAAPjMzMzMqwDgDAACCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T05:45:38.918Z"
             },
             {
               "$type": "Document",

@@ -810,7 +810,7 @@ namespace FMS_API.TedtrackerClient.TTCController
 
 
         [HttpGet("UpdateProjectWorkConfirmation")]
-        public async Task<dynamic> UpdateProjectWorkConfirmation(string projectWorkId)
+        public async Task<dynamic> UpdateProjectWorkConfirmation(string projectWorkId, string confirmedRemarks, string CurrentTaskStatus)
         {
             try
             {
@@ -838,7 +838,7 @@ namespace FMS_API.TedtrackerClient.TTCController
                 if (isValid)
                 {     // Return user details or appropriate response
                     //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
-                    return await comrep.UpdateProjectWorkConfirmation(projectWorkId);
+                    return await comrep.UpdateProjectWorkConfirmation(projectWorkId, decodedToken.AUSR_ID, confirmedRemarks, CurrentTaskStatus);
                 }
                 else
                 {
@@ -903,52 +903,7 @@ namespace FMS_API.TedtrackerClient.TTCController
         }
 
 
-        [HttpGet("UpdateProjectWorkStatus")]
-        public async Task<dynamic> UpdateProjectWorkStatus(string projectWorkId, string projectWorkStatusId, string updateRemarks)
-        {
-            try
-            {
-                string authorizationHeader = Request.Headers["Authorization"];
-
-                if (string.IsNullOrEmpty(authorizationHeader))
-                {
-                    return Unauthorized();
-                }
-
-                // Extract token from header (remove "Bearer " prefix)
-                string token = authorizationHeader.Replace("Bearer ", "");
-
-                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
-                ProjectUserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
-
-                if (decodedToken == null)
-                {
-                    return Unauthorized();
-                }
-
-                // Validate token
-                var isValid = await jwtHandler.ValidateToken(token);
-
-                if (isValid)
-                {     // Return user details or appropriate response
-                    //return Ok(new { Message = "User details retrieved successfully", UserDetails = decodedToken });
-                    return await comrep.UpdateProjectWorkStatus(projectWorkId, projectWorkStatusId, updateRemarks);
-                }
-                else
-                {
-                    return Unauthorized();
-                }
-            }
-            catch (Exception ex)
-            {
-                // Log the exception
-                Console.WriteLine($"Error in UpdateProjectWorkStatus: {ex.Message}");
-                return StatusCode(500, "Internal server error");
-            }
-
-        }
-
-
+ 
 
     }
 }

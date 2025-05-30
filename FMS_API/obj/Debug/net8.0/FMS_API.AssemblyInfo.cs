@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FMS_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f58e8c0992aeecbdaed1f949fafcbe76920ac7d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74774878f85fac3f78c018e40294890c08fdfbe8")]
 [assembly: System.Reflection.AssemblyProductAttribute("FMS_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FMS_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

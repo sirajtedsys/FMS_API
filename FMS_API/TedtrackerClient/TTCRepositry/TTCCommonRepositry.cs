@@ -780,83 +780,100 @@ ORDER BY W.CREATE_DATE DESC
 
 
 
-        public async Task<dynamic> UpdateProjectWorkConfirmation(string projectWorkId)
+        public async Task<dynamic> UpdateProjectWorkConfirmation(string projectWorkId, string confirmedBy, string confirmedRemarks, string CurrentTaskStatus)
         {
+            string query = @"
+            UPDATE PRMTRANS.INV_PROJECT_WORK 
+            SET 
+                CONFIRMED_BY = :confirmedBy, 
+                CONFIRMED_ON = SYSDATE, 
+                CONFIRMED_STATUS = 'Y', 
+                CONFIRMED_REMARKS = :confirmedRemarks 
+            WHERE 
+                PROJECT_WORK_ID = :projectWorkId";
+
             using (var conn = new OracleConnection(_con))
+            using (var cmd = new OracleCommand(query, conn))
             {
+                cmd.Parameters.Add(new OracleParameter("confirmedBy", confirmedBy));
+                cmd.Parameters.Add(new OracleParameter("confirmedRemarks", confirmedRemarks));
+                cmd.Parameters.Add(new OracleParameter("projectWorkId", projectWorkId));
+
                 try
                 {
                     conn.Open();
-                    using (var cmd = conn.CreateCommand())
+                    int rowsUpdated = cmd.ExecuteNonQuery();
+                    if (rowsUpdated > 0)
                     {
-                        cmd.CommandText = @"
-                        UPDATE PRMTRANS.INV_PROJECT_WORK
-                        SET 
-                            CONFIRMED_BY = '',
-                            CONFIRMED_ON = SYSDATE,
-                            CONFIRMED_STATUS = ''
-                        WHERE PROJECT_WORK_ID = :projectWorkId";
-
-                        cmd.Parameters.Add("projectWorkId", OracleDbType.Varchar2).Value = projectWorkId;
-
-                        int rowsAffected = cmd.ExecuteNonQuery();
-                        if (rowsAffected > 0)
+                        if (CurrentTaskStatus == "1")
                         {
+                            var a = await UpdateStatusAndAppendRemarks(projectWorkId, confirmedRemarks);
+                            if (a != null && a.Status == 200)
+                            {
 
-                            return new { Status = 200, Message = "Work Confirmed successfully." };
+                                return new { Status = 200, Message = "Confirmation Successfull" };
+
+                            }
+                            else
+                            {
+                                return a;
+                            }
                         }
                         else
                         {
 
-                            return new { Status = 400, Message = "Error while work confirmation" };
+                            return new { Status = 200, Message = "Confirmation Successfull" };
+
                         }
+
+                    }
+                    else
+                    {
+                        return new { Status = 400, Message = "Error while confirmation" };
                     }
                 }
                 catch (Exception ex)
                 {
-                    // Log or handle the error as needed
 
                     return new { Status = 500, Message = ex.Message };
-
                 }
             }
         }
 
-        public async Task<dynamic> UpdateProjectWorkStatus(string projectWorkId, string projectWorkStatusId, string updateRemarks)
+
+        public async Task<dynamic> UpdateStatusAndAppendRemarks(string projectWorkId, string newRemark)
         {
+            string query = @"
+            UPDATE PRMTRANS.INV_PROJECT_WORK 
+            SET 
+                PROJECT_WORK_STATUS_ID = '4', 
+                UPDATE_REMARKS = NVL(UPDATE_REMARKS, '') || ' ' || :newRemark 
+            WHERE 
+                PROJECT_WORK_ID = :projectWorkId";
+
             using (var conn = new OracleConnection(_con))
+            using (var cmd = new OracleCommand(query, conn))
             {
+                cmd.Parameters.Add(new OracleParameter("newRemark", newRemark));
+                cmd.Parameters.Add(new OracleParameter("projectWorkId", projectWorkId));
+
                 try
                 {
-                    await conn.OpenAsync();
-
-                    using (var cmd = conn.CreateCommand())
+                    conn.Open();
+                    int rowsUpdated = cmd.ExecuteNonQuery();
+                    if (rowsUpdated > 0)
                     {
-                        cmd.CommandText = @"
-                    UPDATE PRMTRANS.INV_PROJECT_WORK 
-                    SET 
-                        PROJECT_WORK_STATUS_ID = :projectWorkStatusId,
-                        UPDATE_REMARKS = :updateRemarks
-                    WHERE PROJECT_WORK_ID = :projectWorkId";
 
-                        cmd.Parameters.Add("projectWorkStatusId", OracleDbType.Varchar2).Value = projectWorkStatusId ?? string.Empty;
-                        cmd.Parameters.Add("updateRemarks", OracleDbType.Varchar2).Value = updateRemarks ?? string.Empty;
-                        cmd.Parameters.Add("projectWorkId", OracleDbType.Varchar2).Value = projectWorkId;
-
-                        int rowsAffected = await cmd.ExecuteNonQueryAsync();
-
-                        if (rowsAffected > 0)
-                        {
-                            return new { Status = 200, Message = "Work status updated successfully." };
-                        }
-                        else
-                        {
-                            return new { Status = 400, Message = "No record found to update." };
-                        }
+                        return new { Status = 200, Message = "Confirmation Successfull" };
+                    }
+                    else
+                    {
+                        return new { Status = 400, Message = "Error while confirmation" };
                     }
                 }
                 catch (Exception ex)
                 {
+
                     return new { Status = 500, Message = ex.Message };
                 }
             }

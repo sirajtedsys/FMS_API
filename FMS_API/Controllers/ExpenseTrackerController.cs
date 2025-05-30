@@ -1154,52 +1154,9 @@ namespace FMS_API.Controllers
 
         }
 
-        [HttpGet("UpdateProjectWorkConfirmation")]
-        public async Task<dynamic> UpdateProjectWorkConfirmation(string projectWorkId, string confirmedRemarks, string CurrentTaskStatus)
-        {
-            try
-            {
-                // Retrieve token from Authorization header
-                string authorizationHeader = Request.Headers["Authorization"];
-
-                if (string.IsNullOrEmpty(authorizationHeader))
-                {
-                    return Unauthorized();
-                }
-
-                // Extract token from header (remove "Bearer " prefix)
-                string token = authorizationHeader.Replace("Bearer ", "");
-
-                // Decode token (not decrypt, assuming DecriptTocken is for decoding)
-                UserTocken decodedToken = jwtHandler.DecriptTocken(authorizationHeader);
-
-                if (decodedToken == null)
-                {
-                    return Unauthorized();
-                }
-
-                // Validate token
-                var isValid = await jwtHandler.ValidateToken(token);
-
-                if (isValid)
-                {
-                    // Return user details or appropriate response
-                    //return Ok(new { Message = "User details empId successfully", UserDetails = decodedToken });
-                    return await comrep.UpdateProjectWorkConfirmation(projectWorkId,decodedToken.AUSR_ID, confirmedRemarks, CurrentTaskStatus);
-                }
-                else
-                {
-                    return Unauthorized();
-                }
-            }
-            catch (Exception ex)
-            {
-                // Log the exception
-                Console.WriteLine($"Error in UpdateEmployeeExpense: {ex.Message}");
-                return StatusCode(500, "Internal server error");
-            }
-
-        }
+     
+        
+        
         //UpdateEmployeeExpense(string strUserId, string strRemarks, int expId)
 
         //UpdateLeaveRequest(string leaveRequestId, DateTime fromDate, DateTime toDate, string leaveReason)
